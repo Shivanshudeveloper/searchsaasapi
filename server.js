@@ -3,6 +3,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const colors = require("colors");
 const cors = require("cors");
+const morgan = require("morgan");
 // Route Files
 const routes = require("./routes/api");
 const app = express();
